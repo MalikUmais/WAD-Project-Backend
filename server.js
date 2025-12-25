@@ -13,7 +13,7 @@ connectDB();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(cors({ origin: '*' }));
+app.use(cors({ origin: 'https://wad-project-frontend.vercel.app' }));
 //order endpoints
 app.get('/order', async (req, res) => {
     const orders = await Order.find();
