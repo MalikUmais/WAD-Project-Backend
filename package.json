@@ -4,13 +4,14 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
+    "body-parser": "^2.2.1",
+    "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "mongodb": "^7.0.0",
     "mongodb-connection-string-url": "^7.0.0",
     "mongoose": "^9.0.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -18,5 +19,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalikUmais/WAD-Project-Backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MalikUmais/WAD-Project-Backend/issues"
+  },
+  "homepage": "https://github.com/MalikUmais/WAD-Project-Backend#readme"
 }
